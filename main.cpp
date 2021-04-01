@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <iostream>
+#include <string>
 
 int main() {
     const char *introAscii = "\n"            
@@ -10,4 +11,11 @@ int main() {
 "  \\___||___/_| |_|  \n"
 "                    \n";                  
     printf("%s", introAscii);
+
+    while (true) {
+        std::string input; 
+        std::cout << "> ";
+        std::getline (std::cin,input);
+        std::cout << input << std::endl;
+    }
 }
