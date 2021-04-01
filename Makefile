@@ -8,6 +8,6 @@ SRCS=main.cpp
 all: run 
 	
 run:
-	$(CXX) $(CPPFLAGS) $(SRCS)
+	$(CXX) $(CPPFLAGS) $(SRCS)-o esh
 
 
